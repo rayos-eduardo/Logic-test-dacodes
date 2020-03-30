@@ -19,10 +19,10 @@ for x in range(t):
             print("Please enter a valid number for n and/or m, at this format 'n m'.\nThey must be numbers between 1-10^9")
             continue
         if not(1 <= n <= pow(10,9)):
-            print("Please enter a valid number for T.\nIt must be between 1-5000")
+            print("Please enter a valid number for n and/or m, at this format 'n m'.\nThey must be numbers between 1-10^9")
             continue
         if not(1 <= m <= pow(10,9)):
-            print("Please enter a valid number for T.\nIt must be between 1-5000")
+            print("Please enter a valid number for n and/or m, at this format 'n m'.\nThey must be numbers between 1-10^9")
             continue  
         else:
             break
